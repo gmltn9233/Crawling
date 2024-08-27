@@ -1,5 +1,9 @@
 package com.example.jsoup.dto;
 
-public class LoginDTO {
+import lombok.Data;
 
+@Data
+public class LoginDTO {
+    private String studentID;
+    private String password;
 }
